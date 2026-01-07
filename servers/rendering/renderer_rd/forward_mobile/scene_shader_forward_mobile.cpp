@@ -733,8 +733,11 @@ void SceneShaderForwardMobile::init(const String p_defines) {
 		actions.renames["LIGHT_IS_DIRECTIONAL"] = "is_directional";
 		actions.renames["LIGHT"] = "light_highp";
 		actions.renames["ATTENUATION"] = "attenuation_highp";
+		actions.renames["LIGHT_ATTENUATION"] = "light_attenuation_highp";
+		actions.renames["SHADOW"] = "shadow_highp";
 		actions.renames["DIFFUSE_LIGHT"] = "diffuse_light_highp";
 		actions.renames["SPECULAR_LIGHT"] = "specular_light_highp";
+		actions.renames["AMBIENT_LIGHT"] = "ambient_light_highp";
 
 		actions.usage_defines["NORMAL"] = "#define NORMAL_USED\n";
 		actions.usage_defines["TANGENT"] = "#define TANGENT_USED\n";
